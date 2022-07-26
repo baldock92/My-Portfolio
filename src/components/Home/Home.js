@@ -3,7 +3,6 @@ import Gtitle from '../../assets/images/G-logo.png'
 import {Link} from "react-router-dom"
 import "./Home.scss"
 
-
 export default function Home() {
   return (
     <div className="container home-page">
