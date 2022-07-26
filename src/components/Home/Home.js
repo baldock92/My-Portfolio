@@ -3,6 +3,7 @@ import Gtitle from '../../assets/images/G-logo.png'
 import { Link } from 'react-router-dom'
 import './Home.scss'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
+import Logo from "../Logo/Logo"
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -56,11 +57,12 @@ export default function Home() {
             idx={22}
           />
         </h1>
-        <h2>Full stack software devloper</h2>
+        <h2>Full stack software developer</h2>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }
