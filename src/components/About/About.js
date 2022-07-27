@@ -42,6 +42,7 @@ export default function About() {
             I'm a confident individual with great communication skills, and love
             working as part of a team.
           </p>
+          
           <p>
             Outside of work I love sports, mainly golf football and poker
             (although perhaps not a sport!) as well as a general love for the

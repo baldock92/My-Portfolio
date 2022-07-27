@@ -5,7 +5,7 @@ import { useRef } from 'react'
 
 export default function Logo() {
   const bgRef = useRef()
-  const outlineLogoRef = useRef()
+  //const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
   return (

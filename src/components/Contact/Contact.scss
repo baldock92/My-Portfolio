@@ -1,0 +1,60 @@
+#contact-info {
+  font-size: 20px;
+  color: white;
+}
+
+.contact-icons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-top: 10%;
+
+  .contact-icon {
+    font-size: 80px;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    color: rgb(43, 194, 214);
+
+    &:hover {
+      color: #ffd700;
+      cursor: pointer;
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.display-contact {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Coolvetica';
+  animation: jackInTheBox 1.2s 4s;
+
+  &:hover{
+    color: #ffd700;
+    cursor: pointer;
+  }
+}
+
+#linkedin-link {
+  all: unset;
+  text-decoration: underline;
+  color: #ffd700;
+  font-size: 25px;
+  font-weight: 500;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
