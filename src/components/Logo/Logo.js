@@ -10,7 +10,7 @@ export default function Logo() {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      <img src={gLogo} className="solid-logo" alt="logo" ref={solidLogoRef}/>
+      <img src={gLogo} className="solid-logo" alt="logo" ref={solidLogoRef} />
       <svg
         width="559pt"
         height="897pt"
@@ -22,9 +22,7 @@ export default function Logo() {
           className="svg-container"
           transform="translate(0 457) scale(.1 -.1"
           fill="none"
-        >
-           
-        </g>
+        ></g>
       </svg>
     </div>
   )

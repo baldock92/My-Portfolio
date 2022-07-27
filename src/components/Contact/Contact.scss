@@ -58,3 +58,21 @@
     cursor: pointer;
   }
 }
+
+.photo-me{
+    border-radius: 15%;
+    height: 50rem;
+    width: auto;
+}
+
+.info-pic{
+    position:absolute;
+    top: 20%;
+    right: 10%;
+    z-index: 999;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+}
