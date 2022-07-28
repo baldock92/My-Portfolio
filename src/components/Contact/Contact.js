@@ -5,7 +5,6 @@ import React, { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import mePic from '../../assets/images/Me.png'
-import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 
 export default function Contact() {
   const [letterClass, setLetterClass] = useState('text-animate')

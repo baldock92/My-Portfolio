@@ -23,10 +23,10 @@
         left: 0;
         margin: auto;
         width: 100%;
-        opacity: 0.3;
+        opacity: 0.5;
         transform: rotateZ(30deg);
         z-index: 1;
-        animation: fadeIn 1.7s backwards;
+        animation: bounceInDown 2.7s;
     }
 }
 
