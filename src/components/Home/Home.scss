@@ -1,4 +1,5 @@
 .home-page {
+  
   .text-zone {
     position: absolute;
     left: 20%;
@@ -73,4 +74,15 @@
       color: #333;
     }
   }
+}
+.home-pic-me {
+  border-radius: 15%;
+  height: 23rem;
+  width: auto;
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  animation: bounceInDown 2s;
+
+  
 }

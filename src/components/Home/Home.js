@@ -5,6 +5,7 @@ import './Home.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Logo from '../Logo/Logo';
 import { Loader } from 'react-loaders';
+import mePic from '../../assets/images/Me.png';
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -39,6 +40,9 @@ export default function Home() {
   return (
     <>
       <div className="container home-page">
+      <div className="home-pic">
+          <img className="home-pic-me" src={mePic} alt="Myself" />
+        </div>
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
