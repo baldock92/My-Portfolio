@@ -1,21 +1,21 @@
-import './Contact.scss'
-import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters/AnimatedLetters.js'
-import React, { useState, useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
-import mePic from '../../assets/images/Me.png'
+import './Contact.scss';
+import Loader from 'react-loaders';
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters.js';
+import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import mePic from '../../assets/images/Me.png';
 
 export default function Contact() {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const [phoneNum, setPhoneNum] = useState('Give me a call')
-  const [email, setEmail] = useState('Why not send me an email?')
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const [phoneNum, setPhoneNum] = useState('Give me a call');
+  const [email, setEmail] = useState('Why not send me an email?');
 
   useEffect(() => {
     setTimeout(() => {
-      return setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+      return setLetterClass('text-animate-hover');
+    }, 3000);
+  }, []);
 
   return (
     <div className="overall-contact">
@@ -40,15 +40,17 @@ export default function Contact() {
               href="https://www.linkedin.com/in/george-baldock-88749a240/"
             >
               LinkedIn.
-            </a><br /> . . . <br />
-            I'm based in Solihull, UK, but I am willing to relocate for the right offer.
+            </a>
+            <br /> . . . <br />
+            I'm based in Solihull, UK, but I am willing to relocate for the
+            right offer.
           </p>
-          
+
           <div className="contact-icons-container">
             <div
               className="phone-info"
               onClick={() => {
-                setPhoneNum('07754373395')
+                setPhoneNum('07754373395');
               }}
             >
               <FontAwesomeIcon className="contact-icon phone" icon={faPhone} />
@@ -56,7 +58,7 @@ export default function Contact() {
             </div>
             <div
               onClick={() => {
-                setEmail('george_baldock@hotmail.co.uk')
+                setEmail('george_baldock@hotmail.co.uk');
               }}
               className="email-info"
             >
@@ -74,5 +76,5 @@ export default function Contact() {
         <Loader type="pacman" />
       </div>
     </div>
-  )
+  );
 }

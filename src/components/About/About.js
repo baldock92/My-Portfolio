@@ -1,8 +1,8 @@
-import './About.scss'
+import './About.scss';
 
-import React, { useState, useEffect } from 'react'
-import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { useState, useEffect } from 'react';
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faJsSquare,
   faHtml5,
@@ -10,17 +10,17 @@ import {
   faCss3,
   faNode,
   faGithub,
-} from '@fortawesome/free-brands-svg-icons'
-import {Loader} from "react-loaders"
+} from '@fortawesome/free-brands-svg-icons';
+import { Loader } from 'react-loaders';
 
 export default function About() {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
     setTimeout(() => {
-      return setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+      return setLetterClass('text-animate-hover');
+    }, 3000);
+  }, []);
 
   return (
     <>
@@ -42,7 +42,7 @@ export default function About() {
             I'm a confident individual with great communication skills, and love
             working as part of a team.
           </p>
-          
+
           <p>
             Outside of work I love sports, mainly golf football and poker
             (although perhaps not a sport!) as well as a general love for the
@@ -75,7 +75,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Loader type="pacman" /> 
+      <Loader type="pacman" />
     </>
-  )
+  );
 }

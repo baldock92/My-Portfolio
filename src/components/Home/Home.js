@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import Gtitle from '../../assets/images/G-logo.png'
-import { Link } from 'react-router-dom'
-import './Home.scss'
-import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
+import React, { useState, useEffect } from 'react';
+import Gtitle from '../../assets/images/G-logo.png';
+import { Link } from 'react-router-dom';
+import './Home.scss';
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Logo from '../Logo/Logo';
-import {Loader} from "react-loaders"
+import { Loader } from 'react-loaders';
 
 export default function Home() {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['e', 'o', 'r', 'g', 'e']
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const nameArray = ['e', 'o', 'r', 'g', 'e'];
   const jobArray = [
     'S',
     'o',
@@ -28,13 +28,13 @@ export default function Home() {
     'p',
     'e',
     'r',
-  ]
+  ];
 
   useEffect(() => {
     setTimeout(() => {
-      return setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
+      return setLetterClass('text-animate-hover');
+    }, 4000);
+  }, []);
 
   return (
     <>
@@ -68,5 +68,5 @@ export default function Home() {
       </div>
       <Loader type="pacman" />
     </>
-  )
+  );
 }

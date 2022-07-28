@@ -1,5 +1,5 @@
-import React from 'react'
-import './AnimatedLetters.scss'
+import React from 'react';
+import './AnimatedLetters.scss';
 
 export default function AnimatedLetters({ letterClass, strArray, idx }) {
   return (
@@ -10,5 +10,5 @@ export default function AnimatedLetters({ letterClass, strArray, idx }) {
         </span>
       ))}
     </span>
-  )
+  );
 }

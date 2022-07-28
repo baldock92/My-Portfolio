@@ -1,6 +1,6 @@
-import './Layout.scss'
-import Sidebar from '../Sidebar/Sidebar'
-import { Outlet } from 'react-router-dom'
+import './Layout.scss';
+import Sidebar from '../Sidebar/Sidebar';
+import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
   return (
@@ -17,7 +17,7 @@ const Layout = () => {
         </span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
