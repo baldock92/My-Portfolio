@@ -42,7 +42,7 @@ export default function Contact() {
               LinkedIn.
             </a>
             <br /> . . . <br />
-            I'm based in Solihull, UK, but I am willing to relocate for the
+            I'm living in Solihull, UK, and also have a base in Staffordshire. I am willing to relocate for the
             right offer.
           </p>
 
