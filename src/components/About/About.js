@@ -46,7 +46,7 @@ export default function About() {
             In my free time, I love playing and watching sports, mainly golf,
             football and poker, (although perhaps not a sport!) as well as a
             general love for the great outdoors. Travel is my biggest joy in
-            life, and it's my life ambition to see as much of the World as
+            life, and it's my life ambition to see as much of the world as
             possible, with a slice of pizza in one hand as I do.
           </p>
         </div>
