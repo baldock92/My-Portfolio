@@ -5,7 +5,6 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters.js';
 import portfolioData from '../../data/projects.json';
 
 export default function Projects() {
-
   const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
@@ -15,23 +14,40 @@ export default function Projects() {
   }, []);
 
   const renderPortfolio = (projectsData) => {
-   
-    return <div className="images-container">
-      {projectsData.map((project, idx) => {
-        return (
-          <div className='image-box' key={idx}>
-            <img src={project.image} className="project-image" alt="project screenshot" />
-            <div className='content'>
-              <p className='title'>{project.title}</p>
-              <h4 className='description'>{project.description}</h4>
-              <h5 className='tech-stack'>{project.techStack}</h5>
-              <button className='project-button' onClick={() => window.open(project.url)}>View</button>
+    return (
+      <div className="images-container">
+        {projectsData.map((project, idx) => {
+          return (
+            <div className="image-box" key={idx}>
+              <img
+                src={project.image}
+                className="project-image"
+                alt="project screenshot"
+              />
+              <div className="content">
+                <p className="title">{project.title}</p>
+                <h4 className="description">{project.description}</h4>
+                <h5 className="tech-stack">{project.techStack}</h5>
+                <div className="button-wrapper">
+                  <button
+                    className="project-button"
+                    onClick={() => window.open(project.projectUrl)}
+                  >
+                    Project
+                  </button>
+                  <button
+                    className="project-button"
+                    onClick={() => window.open(project.githubUrl)}
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
             </div>
-          </div>
-         
-        )
-      })}
-    </div>;
+          );
+        })}
+      </div>
+    );
   };
 
   return (

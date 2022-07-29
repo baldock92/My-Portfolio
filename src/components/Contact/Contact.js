@@ -24,7 +24,7 @@ export default function Contact() {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', ' ', 'm', 'e']}
+              strArray={'Contact me'.split('')}
               idx={15}
             />
           </h1>
@@ -32,7 +32,7 @@ export default function Contact() {
             Please don't hesitate to contact me with any opportunities for work,
             project ideas, or general questions.
             <br /> . . . <br />
-            You can do so by giving me a call, sending me and email or reaching
+            You can do so by giving me a call, sending me an email or reaching
             out on<span> </span>
             <a
               id="linkedin-link"
@@ -42,8 +42,11 @@ export default function Contact() {
               LinkedIn.
             </a>
             <br /> . . . <br />
-            I'm living in Solihull, UK, and also have a base in Staffordshire. I am willing to relocate for the
-            right offer.
+            I'm living in Solihull, UK, and also have a base in Staffordshire. I
+            am willing to relocate for the right offer.
+            <br /> . . . <br />
+            I'm open to working in office full time, on a hybrid basis or fully
+            remote.
           </p>
 
           <div className="contact-icons-container">

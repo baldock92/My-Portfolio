@@ -85,6 +85,31 @@
   }
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+
+  .list-head{
+color: #fff;
+list-style: none;
+text-align:left;
+
+text-decoration: underline;
+font-size: 18px;
+letter-spacing: 1.5px;
+  }
+
+  
+
+  li{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+}
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;

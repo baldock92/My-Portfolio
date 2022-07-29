@@ -9,27 +9,8 @@ import mePic from '../../assets/images/Me.png';
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['e', 'o', 'r', 'g', 'e'];
-  const jobArray = [
-    'S',
-    'o',
-    'f',
-    't',
-    'w',
-    'a',
-    'r',
-    'e',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-  ];
+  const nameArray = 'eorge'.split('');
+  const jobArray = 'Software developer'.split('');
 
   useEffect(() => {
     setTimeout(() => {
@@ -40,7 +21,7 @@ export default function Home() {
   return (
     <>
       <div className="container home-page">
-      <div className="home-pic">
+        <div className="home-pic">
           <img className="home-pic-me" src={mePic} alt="Myself" />
         </div>
         <div className="text-zone">

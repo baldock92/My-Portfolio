@@ -5,14 +5,16 @@
       "title": "Fuely",
       "techStack": "React, JSX FAST Api, Firebase, mongoDB, Pytest",
       "description": "A fuel price comparison website",
-      "url": "https://fuely.netlify.app/"
+      "projectUrl": "https://fuely.netlify.app/",
+      "githubUrl": "https://github.com/abath257/fuely--fe"
     },
     {
       "image": "/portfolio-images/projects/nc-games.png",
       "title": "NC Games Review",
       "techStack": "React, JSX, Node js Api, PostgreSQL, Express js, Jest",
       "description": "A board games review website",
-      "url": "https://baldock92-board-games.netlify.app/"
+      "projectUrl": "https://baldock92-board-games.netlify.app/",
+      "githubUrl": "https://github.com/baldock92/nc-games"
     }
   ]
 }

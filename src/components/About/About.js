@@ -29,7 +29,7 @@ export default function About() {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', ' ', 'm', 'e']}
+              strArray={'About me'.split('')}
               idx={15}
             />
           </h1>
@@ -39,6 +39,11 @@ export default function About() {
             challenging and diverse projects.
           </p>
           <p>
+            Before I started programming, I worked as a sales team leader in the
+            travel industry, learning to work to deadlines to deliver
+            exceptional service to my clients and regularly hit targets and
+            KPI's.
+            <br />
             I'm a confident individual with great communication skills, and love
             working as part of a team.
           </p>
@@ -49,6 +54,39 @@ export default function About() {
             life, and it's my life ambition to see as much of the world as
             possible, with a slice of pizza in one hand as I do.
           </p>
+          <br />
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={'Skills'.split('')}
+              idx={15}
+            />
+          </h1>
+          <div className="skills-container">
+            <div className="frontend-skills skills">
+              <li className="list-head">Front End</li>
+              <li>React JS</li>
+              <li>Html5</li>
+              <li>CSS3</li>
+            </div>
+            <div className="backend-skills skills">
+              <li className="list-head">Back End</li>
+              <li>Node JS</li>
+              <li>Express JS</li>
+              <li>PostgreSQL</li>
+              <li>Basic Python3</li>
+              <li>Basic MongoDB</li>
+              <li>Jest</li>
+            </div>
+            <div className="other-skills skills">
+              <li className="list-head">Other Useful Skills</li>
+
+              <li>Pair Programming</li>
+              <li>Test Driven Development</li>
+              <li>Version Control (Github)</li>
+              <li>Agile methodologies</li>
+            </div>
+          </div>
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
