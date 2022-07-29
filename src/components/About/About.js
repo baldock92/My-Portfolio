@@ -33,27 +33,29 @@ export default function About() {
               idx={15}
             />
           </h1>
-          <p>
-            I'm a very ambitious full-stack software developer, looking for a
-            role where I can work with existing and new technologies on
-            challenging and diverse projects.
-          </p>
-          <p>
-            Before I started programming, I worked as a sales team leader in the
-            travel industry, learning to work to deadlines to deliver
-            exceptional service to my clients and regularly hit targets and
-            KPI's.
-            <br />
-            I'm a confident individual with great communication skills, and love
-            working as part of a team.
-          </p>
-          <p>
-            In my free time, I love playing and watching sports, mainly golf,
-            football and poker, (although perhaps not a sport!) as well as a
-            general love for the great outdoors. Travel is my biggest joy in
-            life, and it's my life ambition to see as much of the world as
-            possible, with a slice of pizza in one hand as I do.
-          </p>
+          <div className="p-container">
+            <p>
+              I'm a very ambitious full-stack software developer, looking for a
+              role where I can work with existing and new technologies on
+              challenging and diverse projects.
+            </p>
+            <p>
+              Before I started programming, I worked as a sales team leader in
+              the travel industry, learning to work to deadlines to deliver
+              exceptional service to my clients and regularly hit targets and
+              KPI's.
+              <br />
+              I'm a confident individual with great communication skills, and
+              love working as part of a team.
+            </p>
+            <p>
+              In my free time, I love playing and watching sports, mainly golf,
+              football and poker, (although perhaps not a sport!) as well as a
+              general love for the great outdoors. Travel is my biggest joy in
+              life, and it's my life ambition to see as much of the world as
+              possible, with a slice of pizza in one hand as I do.
+            </p>
+          </div>
           <br />
           <h1>
             <AnimatedLetters
