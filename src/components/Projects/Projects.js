@@ -41,8 +41,10 @@ export default function Projects() {
                   >
                     Github
                   </button>
+                  
                 </div>
               </div>
+              <br />
             </div>
           );
         })}

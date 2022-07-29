@@ -5,10 +5,12 @@ import Home from './components/Home/Home.js';
 import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import Projects from "./components/Projects/Projects.js"
+import Logo from "./components/Logo/Logo.js"
 
 function App() {
   return (
     <>
+    <Logo />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
