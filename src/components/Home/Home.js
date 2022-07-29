@@ -9,8 +9,9 @@ import mePic from '../../assets/images/Me.png';
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = 'eorge'.split('');
-  const jobArray = 'Software developer'.split('');
+  const nameArray = 'eorge,'.split('');
+  const jobArray = 'Software'.split('');
+  const jobArray2 = 'Developer'.split('');
 
   useEffect(() => {
     setTimeout(() => {
@@ -41,6 +42,11 @@ export default function Home() {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
+              idx={22}
+            /><br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray2}
               idx={22}
             />
           </h1>
