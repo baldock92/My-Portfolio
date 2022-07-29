@@ -3,7 +3,6 @@ import Gtitle from '../../assets/images/G-logo.png';
 import { Link } from 'react-router-dom';
 import './Home.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-import Logo from '../Logo/Logo';
 import { Loader } from 'react-loaders';
 import mePic from '../../assets/images/Me.png';
 
@@ -43,7 +42,8 @@ export default function Home() {
               letterClass={letterClass}
               strArray={jobArray}
               idx={22}
-            /><br />
+            />
+            <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray2}
@@ -55,7 +55,6 @@ export default function Home() {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
       <Loader type="pacman" />
     </>
