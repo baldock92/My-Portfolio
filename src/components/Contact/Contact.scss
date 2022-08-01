@@ -18,29 +18,29 @@
       letter-spacing: 3px;
       margin-top: 0;
       position: relative;
-      left: 25%;
+      left: 20%;
 
-      &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 1.2rem;
-        position: absolute;
-        margin-top: -5px;
-        left: 5%;
-        opacity: 0.6;
-        line-height: 18px;
-      }
-      &::after {
-        content: '</h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 1.2rem;
-        line-height: 18px;
-        position: absolute;
-        left: 0%;
-        bottom: -20px;
-        margin-left: 20px;
-        opacity: 0.6;
-      }
+      // &::before {
+      //   content: '<h1>';
+      //   font-family: 'La Belle Aurore';
+      //   font-size: 1.2rem;
+      //   position: absolute;
+      //   margin-top: -5px;
+      //   left: 5%;
+      //   opacity: 0.6;
+      //   line-height: 18px;
+      // }
+      // &::after {
+      //   content: '</h1>';
+      //   font-family: 'La Belle Aurore';
+      //   font-size: 1.2rem;
+      //   line-height: 18px;
+      //   position: absolute;
+      //   left: 0%;
+      //   bottom: -20px;
+      //   margin-left: 20px;
+      //   opacity: 0.6;
+      // }
     }
 
     p {
@@ -140,7 +140,7 @@
 .info-pic {
   position: absolute;
   top: -3%;
-  right: 4%;
+  right: 0.1%;
   z-index: 999;
 }
 

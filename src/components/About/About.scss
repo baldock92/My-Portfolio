@@ -34,27 +34,27 @@
       position: relative;
       left: 25%;
 
-      &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 1.2rem;
-        position: absolute;
-        margin-top: -5px;
-        left: 5%;
-        opacity: 0.6;
-        line-height: 18px;
-      }
-      &::after {
-        content: '</h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 1.2rem;
-        line-height: 18px;
-        position: absolute;
-        left: 0%;
-        bottom: -20px;
-        margin-left: 20px;
-        opacity: 0.6;
-      }
+      // &::before {
+      //   content: '<h1>';
+      //   font-family: 'La Belle Aurore';
+      //   font-size: 1.2rem;
+      //   position: absolute;
+      //   margin-top: -5px;
+      //   left: 5%;
+      //   opacity: 0.6;
+      //   line-height: 18px;
+      // }
+      // &::after {
+      //   content: '</h1>';
+      //   font-family: 'La Belle Aurore';
+      //   font-size: 1.2rem;
+      //   line-height: 18px;
+      //   position: absolute;
+      //   left: 0%;
+      //   bottom: -20px;
+      //   margin-left: 20px;
+      //   opacity: 0.6;
+      // }
     }
 
     .p-container {
@@ -235,27 +235,27 @@
         margin-bottom: 40px;
         left: 10px;
 
-        &::before {
-          content: '<h1>';
-          font-family: 'La Belle Aurore';
-          font-size: 18px;
-          position: absolute;
-          margin-top: -10px;
-          left: -10px;
-          opacity: 0.6;
-          line-height: 18px;
-        }
-        &::after {
-          content: '</h1>';
-          font-family: 'La Belle Aurore';
-          font-size: 18px;
-          line-height: 18px;
-          position: absolute;
-          left: -30px;
-          bottom: -20px;
-          margin-left: 20px;
-          opacity: 0.6;
-        }
+        // &::before {
+        //   content: '<h1>';
+        //   font-family: 'La Belle Aurore';
+        //   font-size: 18px;
+        //   position: absolute;
+        //   margin-top: -10px;
+        //   left: -10px;
+        //   opacity: 0.6;
+        //   line-height: 18px;
+        // }
+        // &::after {
+        //   content: '</h1>';
+        //   font-family: 'La Belle Aurore';
+        //   font-size: 18px;
+        //   line-height: 18px;
+        //   position: absolute;
+        //   left: -30px;
+        //   bottom: -20px;
+        //   margin-left: 20px;
+        //   opacity: 0.6;
+        // }
       }
 
       p {
