@@ -45,7 +45,7 @@ export default function Contact() {
             I'm living in Solihull, UK, and also have a base in Staffordshire. I
             am willing to relocate for the right offer.
             <br /> . . . <br />
-            I'm open to working in office full time, on a hybrid basis or fully
+            I'm open to working in an office full time, on a hybrid basis or fully
             remote.
           </p>
 
@@ -53,7 +53,7 @@ export default function Contact() {
             <div
               className="phone-info"
               onClick={() => {
-                setPhoneNum('07754373395');
+                setPhoneNum('(+44)7754373395');
               }}
             >
               <FontAwesomeIcon className="contact-icon phone" icon={faPhone} />
