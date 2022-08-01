@@ -3,7 +3,7 @@
     {
       "image": "/portfolio-images/projects/fuely.png",
       "title": "Fuely",
-      "techStack": "React, JSX FAST Api, Firebase, mongoDB, Pytest",
+      "techStack": "React, JSX FAST Api, Firebase, mongoDB, Pytest, HTML5, CSS3",
       "description": "A fuel price comparison website",
       "projectUrl": "https://fuely.netlify.app/",
       "githubUrl": "https://github.com/abath257/fuely--fe"
@@ -11,10 +11,18 @@
     {
       "image": "/portfolio-images/projects/nc-games.png",
       "title": "NC Games Review",
-      "techStack": "React, JSX, Node js Api, PostgreSQL, Express js, Jest",
+      "techStack": "React, JSX, Node js Api, PostgreSQL, Express js, Jest, , HTML5, CSS3",
       "description": "A board games review website",
       "projectUrl": "https://baldock92-board-games.netlify.app/",
       "githubUrl": "https://github.com/baldock92/nc-games"
+    },
+    {
+      "image": "/portfolio-images/projects/calculator2.png",
+      "title": "George's Calculator",
+      "techStack": "React, HTML5, CSS3",
+      "description": "A simple calculator app",
+      "projectUrl": "https://georges-calculator.netlify.app/",
+      "githubUrl": "https://github.com/baldock92/Calculator"
     }
   ]
 }
